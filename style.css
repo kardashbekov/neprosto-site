@@ -1,40 +1,33 @@
 
 body {
     font-family: Arial, sans-serif;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #fff;
+    background-color: #f9f9f9;
+}
+header {
+    background-color: #b2e4a8;
+    padding: 10px;
+    text-align: center;
+}
+.logo {
+    max-height: 60px;
+}
+main {
+    padding: 20px;
+}
+h1, h2, h3 {
     color: #333;
 }
-
-header {
-    text-align: center;
-    background-color: #e8f5e9;
-    padding: 20px 0;
+ul {
+    list-style: disc;
+    margin-left: 20px;
 }
-
-.about, .goals, .contacts {
-    padding: 20px;
-    margin: 20px;
+a {
+    color: #1a0dab;
+    text-decoration: none;
 }
-
-.goals {
-    background-color: #f5f5f5;
-    border-top: 2px solid #8bc34a;
-    border-bottom: 2px solid #8bc34a;
-}
-
-.goals h2 {
-    font-size: 24px;
-    color: #4caf50;
-    margin-bottom: 10px;
-}
-
-.goals ul {
-    padding-left: 20px;
-}
-
-.goals li {
-    margin-bottom: 10px;
-    line-height: 1.6;
+a:hover {
+    text-decoration: underline;
 }
