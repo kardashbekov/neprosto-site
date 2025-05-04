@@ -1,90 +1,55 @@
-
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <title>Поддержи детей из ПНД</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f7f7f7;
-            margin: 0;
-            padding: 20px;
-            line-height: 1.6;
-        }
-        header {
-            background-color: #a0d995;
-            padding: 20px;
-            text-align: center;
-        }
-        header img {
-            max-width: 100px;
-            margin-bottom: 10px;
-        }
-        h1 {
-            color: #333;
-        }
-        .content {
-            background: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            max-width: 800px;
-            margin: 20px auto;
-        }
-        h2 {
-            color: #2d6a4f;
-        }
-        ul {
-            padding-left: 20px;
-        }
-        a.share-button {
-            display: inline-block;
-            margin: 5px 10px 5px 0;
-            padding: 10px 15px;
-            background-color: #4dabf7;
-            color: white;
-            border-radius: 5px;
-            text-decoration: none;
-        }
-        a.share-button:hover {
-            background-color: #339af0;
-        }
-    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Не просто так</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <img src="https://via.placeholder.com/100x100.png?text=Logo" alt="Logo">
-        <h1>Не просто так</h1>
-        <p>Поддержка детей из ПНД</p>
+    <header style="background-color: #b5e7a0; padding: 20px 0; text-align: center;">
+        <img src="images/logo.png" alt="Не просто так" style="max-width: 180px; display: block; margin: 0 auto;">
     </header>
-    <div class="content">
-        <h2>О проекте</h2>
-        <p>Мы помогаем детям из психоневрологических диспансеров проявить себя через творчество. Вы можете поддержать их, приобретая их рисунки и поделки.</p>
 
-        <h2>Цели проекта</h2>
-        <ul>
-            <li><strong>Самовыражение через искусство:</strong> помогаем детям раскрыть внутренний мир через рисунки и поделки.</li>
-            <li><strong>Социальная адаптация:</strong> даём почувствовать себя частью общества, быть замеченными и услышанными.</li>
-            <li><strong>Финансовая поддержка:</strong> продажа работ помогает собрать средства на материалы и мастер-классы.</li>
-            <li><strong>Повышение осведомлённости:</strong> стремимся разрушить стереотипы и пробудить эмпатию в обществе.</li>
-        </ul>
+    <main class="container">
+        <section class="intro">
+            <h1>Добро пожаловать на наш сайт</h1>
+            <p>Проект «Не просто так» — это социальная инициатива, которая помогает детям из психоневрологических диспансеров через творчество и добрые дела.</p>
+        </section>
 
-        <h2>Как помочь</h2>
-        <ul>
-            <li>Приобретайте рисунки и поделки детей.</li>
-            <li>Рассказывайте о нас в соцсетях и среди друзей.</li>
-            <li>Проводите мастер-классы для детей в ПНД.</li>
-            <li>Станьте волонтёром или организатором благотворительных мероприятий.</li>
-            <li>Оказывайте финансовую помощь на закупку материалов.</li>
-        </ul>
+        <section class="goals">
+            <h2>Цели проекта</h2>
+            <ul>
+                <li>Поддержка и развитие творческого потенциала детей в ПНД.</li>
+                <li>Социальная адаптация через участие в проектах и мероприятиях.</li>
+                <li>Формирование позитивного отношения общества к детям с особенностями.</li>
+                <li>Создание площадки для благотворительности и взаимопомощи.</li>
+            </ul>
+        </section>
 
-        <h2>Поделиться проектом</h2>
-        <a class="share-button" href="https://vk.com/share.php?url=https://kardashbekov.github.io" target="_blank">Поделиться ВКонтакте</a>
-        <a class="share-button" href="https://t.me/share/url?url=https://kardashbekov.github.io&text=Поддержи%20детей%20из%20ПНД" target="_blank">Поделиться в Telegram</a>
-        <a class="share-button" href="https://api.whatsapp.com/send?text=Поддержи%20детей%20из%20ПНД%20https://kardashbekov.github.io" target="_blank">Поделиться в WhatsApp</a>
+        <section class="help">
+            <h2>Как можно помочь</h2>
+            <ul>
+                <li>Покупка работ детей — средства идут на развитие и поддержку.</li>
+                <li>Добровольческая помощь — организация мероприятий, доставка.</li>
+                <li>Информационная поддержка — репосты, рассказы друзьям.</li>
+                <li>Финансовая помощь — разовые и регулярные пожертвования.</li>
+            </ul>
+        </section>
 
-        <h2>Контакты</h2>
-        <p>Свяжитесь с нами через Telegram: <a href="https://t.me/predvoditelider">@predvoditelider</a></p>
-    </div>
+        <section class="share">
+            <h2>Поделитесь проектом</h2>
+            <div class="buttons">
+                <a href="https://vk.com/share.php?url=https://kardashbekov.github.io/neprosto-site" class="button">Поделиться ВКонтакте</a>
+                <a href="https://t.me/share/url?url=https://kardashbekov.github.io/neprosto-site" class="button">Поделиться в Telegram</a>
+                <a href="https://api.whatsapp.com/send?text=https://kardashbekov.github.io/neprosto-site" class="button">Поделиться в WhatsApp</a>
+            </div>
+        </section>
+
+        <section class="contacts">
+            <h2>Связаться с нами</h2>
+            <p>Telegram: <a href="https://t.me/predvoditelider" target="_blank">@predvoditelider</a></p>
+        </section>
+    </main>
 </body>
 </html>
